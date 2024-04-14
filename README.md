@@ -1,7 +1,12 @@
 # nginx-reverse-proxy-tool
 A tool that makes passing services from localhost painless!
 
-This tool will quickly create a http reverse proxy server. The script will run you through everything you need to do to get your proxy up and running.
+## Required
+- nginx
+- [charmbracelet/gum](https://github.com/charmbracelet/gum) [Optional]
+- root privileges
+
+This tool will quickly create a http reverse proxy server. The script will run you through everything you need to do to get your proxy up and running. Installing gum makes it a little quicker to toggle things. 🙂
 
 ## Usage
 Run the script as root. root is usually needed to write to the /etc/nginx directory.
